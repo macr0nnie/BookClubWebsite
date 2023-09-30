@@ -1,0 +1,25 @@
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+    margin-top: 15px;
+}
+nav li{
+    padding: 2px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+section { 
+  flex-grow: 1;
+}
+
+.layer {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
